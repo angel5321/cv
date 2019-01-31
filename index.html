@@ -4,8 +4,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>jimin</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|ZCOOL+KuaiLe" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 	<style>
 		body{
@@ -20,6 +22,8 @@
 		}
 		h1{
 			color: #6effbf;
+			border: solid 10px black; 
+			padding-right: 60px
 		}
 		img{
 			width: 300px;
@@ -33,9 +37,13 @@ font-family: 'ZCOOL KuaiLe', cursive;
 }
 		#diesingner{
 			text-align: center;
+			font-family: 'Indie Flower', cursive;
+font-family: 'ZCOOL KuaiLe', cursive;
 		}
 		.contact{
 			text-align: center;
+			font-family: 'Indie Flower', cursive;
+font-family: 'ZCOOL KuaiLe', cursive;
 		}
 		p{
 			font-size: 40px;
@@ -44,6 +52,7 @@ font-family: 'ZCOOL KuaiLe', cursive;
 		}
 		h3{
 			font-size: 30px;
+			font-family: 'Indie Flower', cursive;
 		}
 		ol{
 			font-size: 25px;
@@ -59,16 +68,37 @@ font-family: 'ZCOOL KuaiLe', cursive;
 
 		}
 		th{
-			font-size: 25px;
+			font-size: 16px;
 			font-family: 'Indie Flower', cursive;
+		}
+		td,th
+			padding: 16px;
+		}
+		li{
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-left:  5px;
+		}
+		h1{
+			margin-top: 10px;
+	margin-bottom: 10px; 
+		}
+		#intro{
+			margin-left:  auto;
+			margin-right: auto; 
+		}
+		#detail{
+			margin-left:  auto;
+			margin-right: auto;
 		}
 	</style>
 </head>
 
 <body>
 </body>
-   <h1>jimin's Personal Website</h1>
-   <table>
+
+   <h1><i class="fab fa-angellist"></i> jimin's Personal Website</h1>
+   <table id="intro">
    	  <tr>
    	  	<td><img src="img/我.jpg" style="width: 300px;height: 300px"></td>
    	  	<td><h2>jimin</h2>
@@ -79,26 +109,31 @@ https://goo.gl/hw9NDj">順天書屋 - 小小導覽員</a></p>
    </table>
    
    <hr>
-   <h3>興趣</h3>
-   <ol type="i"> 
-   	  <li>游泳</li>
-   	  <li>拍抖音</li>
-   	  <li>追星</li>
-   	  <li>追韓國劇</li>
-   </ol>
-   <h3>喜愛偶像</h3>
-   <div >
+   <div>
+ 
+   <div class="row" id="detail">
+   	<div class="col-lg-3">
+   		<h3>興趣</h3>
+		 <ol type="i"> 
+			 <li>游泳</li>
+			 <li>拍抖音</li>
+			 <li>追星</li>
+		   	<li>追韓國劇</li>
+		  </ol>
+   	</div>
+   	<div class="col-lg-3">
+   		<h3>喜愛偶像</h3>
    	<ul type="circle">
    	<li>朴智旻</li>
    	<li>田柾國</li>
    	<li>金泰亨</li>
    	<li>周子瑜</li>
    </ul>
-   </div>
-   <h3>喜愛遊戲</h3>
+   	</div>
+   	<div class="col-lg-3">
+   		<h3>喜愛遊戲</h3>
    <table>
-   	<th>
-   		<tr>
+	   		<tr>
    			<th>電玩</th>
    			<th>社交</th>
    		</tr>
@@ -110,33 +145,40 @@ https://goo.gl/hw9NDj">順天書屋 - 小小導覽員</a></p>
    			<td>傳說對決</td>
    			<td>荒野行動</td>
    		</tr>
-   	</th>
    </table>
-   <h3>喜愛團體</h3>
-   <table>
-   	<th>
-   		<tr>
-   			<th>名稱</th>
-   			<th>喜愛度</th>
-   		</tr>
-   		<tr>
-   			<td><a href="https://www.youtube.com/watch?v=kTlv5_Bs8aw">防彈少年團</a></td>
-   			<td>❤❤❤❤❤❤❤❤</td>
-   		</tr>
-   		<tr>
-   			<td><a href="https://www.youtube.com/watch?v=mAKsZ26SabQ">Twise</a></td>
-   			<td>❤❤❤❤❤❤</td>
-   		</tr>
-   		<tr>
-   			<td><a href="https://www.youtube.com/watch?v=n-9MdXLZFRY">TFboy</a></td>
-   			<td>❤❤❤❤❤❤</td>
-   		</tr>
-   		<tr>
-   			<td><a href="https://www.youtube.com/watch?v=B47wrUv6Fs0">百分九</a></td>
-   			<td>❤❤❤❤❤</td>
-   		</tr>
-   	</th>
-   </table>
+   	</div>
+   	<div class="col-lg-3">
+   		 <h3>喜愛團體</h3>
+	   <table>
+	   		<tr>
+	   			<th>名稱</th>
+	   			<th>喜愛度</th>
+	   		</tr>
+	   		<tr>
+	   			<td><a href="https://www.youtube.com/watch?v=kTlv5_Bs8aw">防彈少年團</a></td>
+	   			<td>❤❤❤❤❤❤❤❤</td>
+	   		</tr>
+	   		<tr>
+	   			<td><a href="https://www.youtube.com/watch?v=mAKsZ26SabQ">Twise</a></td>
+	   			<td>❤❤❤❤❤❤</td>
+	   		</tr>
+	   		<tr>
+	   			<td><a href="https://www.youtube.com/watch?v=n-9MdXLZFRY">TFboy</a></td>
+	   			<td>❤❤❤❤❤❤</td>
+	   		</tr>
+	   		<tr>
+	   			<td><a href="https://www.youtube.com/watch?v=B47wrUv6Fs0">百分九</a></td>
+	   			<td>❤❤❤❤❤</td>
+	   		</tr>
+	   </table>
+   </div>
+</div>
+
+
+
+
+   
+
    <div class="contact">
    	<h3><a href="contact.html">jimin的連絡資訊</a></h1>
     <p>如果有問題隨時連絡我</p>
